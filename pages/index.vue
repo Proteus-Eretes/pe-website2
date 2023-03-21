@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <h1>Proteus-Eretes</h1>
   </div>
 </template>

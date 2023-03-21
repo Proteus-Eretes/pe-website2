@@ -1,9 +1,7 @@
-FROM node:lts-alpine as frontend-build
+FROM node:lts-alpine as build
 
 WORKDIR /src
 
-COPY components ./components
-COPY composables ./composables
 COPY pages ./pages
 COPY public ./public
 COPY server ./server
@@ -17,7 +15,7 @@ RUN yarn build --standalone
 
 FROM node:lts-alpine
 
-COPY --from=frontend-build /src/.output /src/.output
+COPY --from=build /src/.output /src/.output
 
 EXPOSE 3000
 

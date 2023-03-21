@@ -1,7 +1,7 @@
 {
   "name": "pe-website",
-  "version": "0.1.0",
-  "description": "De mooiste website van Nederland, de wereld, het universum en alles daartussenin. (v2)",
+  "version": "2.0.0",
+  "description": "De mooiste website van Nederland, de wereld, het universum en alles daartussenin.",
   "repository": "git@github.com:Proteus-Eretes/pe-website2.git",
   "author": "Webcie <contact.webcie@proteus-eretes.nl>",
   "type": "module",
