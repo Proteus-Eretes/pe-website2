@@ -4,7 +4,6 @@ WORKDIR /src
 
 COPY pages ./pages
 COPY public ./public
-COPY server ./server
 COPY nuxt.config.ts .
 COPY tsconfig.json .
 COPY tailwind.config.ts .
